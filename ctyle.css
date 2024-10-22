@@ -67,12 +67,43 @@ main {
   padding-top: 50px;
 }
 
+section {
+  width: 80%;
+  margin: 0 auto 10px;
+  max-width: 600px;
+}
+
 h1, h2 {
   font-family: Verdana, Geneva, sans-serif;
 }
 
 h2 {
   border-bottom: 4px solid #dfdfe2;
+  padding-top: 60px;
+  margin-top: 0;
+}
+
+.info {
+  padding: 1px 0 0 1px;
+}
+
+.formrow {
+  margin-top: 1px;
+  padding: 0 1px;
+}
+
+input {
+  font-size: 13px;
+}
+
+.info input {
+  width: 50%;
+  text-align: left;
+}
+
+.info label {
+  width: 10%;
+  min-width: 55%;
 }
 
 h3::before {
